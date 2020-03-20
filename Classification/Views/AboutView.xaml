@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Classification"
+             x:Class="Classification.AboutView"
+             Title="About"
+             Visual="Material" >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="20"
+                         Padding="10"
+                         BackgroundColor="White">
+                <!-- Roberto Campos -->
+                <Frame Padding="16">
+                    <StackLayout Spacing="16">
+                        <Image Source="{local:ImageResource Classification.Assets.Images.programmer.jpg}"
+                               Aspect="AspectFill"
+                               Margin="-16,-16,-16,0" />
+                        <Label Text="Software Engineer"
+                               FontSize="24"
+                               TextColor="{StaticResource TextColor}"/>
+                        <Label
+                            FontSize="14"
+                            TextColor="{StaticResource TextColor}"
+                            Text="Roberto Campos - Worked on Tensorflow model and design. Exported model and weights for Node.js execution." />
+                        <Button Text="more" HorizontalOptions="End" />
+                    </StackLayout>
+                </Frame>
+                <!-- Kevin Pacheco -->
+                <Frame Padding="16">
+                    <StackLayout Spacing="16">
+                        <Image Source="{local:ImageResource Classification.Assets.Images.programmer.jpg}"
+                               Aspect="AspectFill"
+                               Margin="-16,-16,-16,0" />
+                        <Label Text="Software Engineer"
+                               FontSize="24"
+                               TextColor="{StaticResource TextColor}"/>
+                        <Label
+                            FontSize="14"
+                            TextColor="{StaticResource TextColor}"
+                            Text="Kevin Pacheco - Worked on Xamarin UI/UX as well as Node.js server running on AWS EC2 server." />
+                        <Button Text="more" HorizontalOptions="End" />
+                    </StackLayout>
+                </Frame>
+                <!-- Austin Wilson -->
+                <Frame Padding="16">
+                    <StackLayout Spacing="16">
+                        <Image Source="{local:ImageResource Classification.Assets.Images.programmer.jpg}"
+                               Aspect="AspectFill"
+                               Margin="-16,-16,-16,0" />
+                        <Label Text="Software Engineer"
+                               FontSize="24"
+                               TextColor="{StaticResource TextColor}"/>
+                        <Label
+                            FontSize="14"
+                            TextColor="{StaticResource TextColor}"
+                            Text="Austin Wilson - Worked on Tensowflow model and design." />
+                        <Button Text="more" HorizontalOptions="End" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -7,7 +7,9 @@ namespace Classification {
 		public App() {
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			if(DesignMode.IsDesignModeEnabled) return;
+
+			MainPage = new AboutView();
 		}
 
 		protected override void OnStart() {
