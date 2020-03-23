@@ -14,19 +14,29 @@
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
     <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.5" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.5.0.396" />
+    <PackageReference Include="System.Text.Json" Version="4.7.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
-    <Folder Include="Views\Main\" />
     <Folder Include="Assets\" />
     <Folder Include="Assets\Images\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Common\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Assets\Images\photo2.png" />
     <None Remove="Assets\Images\programmer.jpg" />
+    <None Remove="Assets\Images\austin-wilson.jpg" />
+    <None Remove="Assets\Images\kevin-pacheco.jpg" />
+    <None Remove="Assets\Images\roberto-campos.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\photo2.png" />
     <EmbeddedResource Include="Assets\Images\programmer.jpg" />
+    <EmbeddedResource Include="Assets\Images\austin-wilson.jpg" />
+    <EmbeddedResource Include="Assets\Images\kevin-pacheco.jpg" />
+    <EmbeddedResource Include="Assets\Images\roberto-campos.jpg" />
   </ItemGroup>
 </Project>

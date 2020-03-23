@@ -1,15 +1,13 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿namespace Classification {
+	using Xamarin.Forms;
 
-namespace Classification {
 	public partial class App : Application {
 		public App() {
 			InitializeComponent();
 
 			if(DesignMode.IsDesignModeEnabled) return;
 
-			MainPage = new AboutView();
+			MainPage = new AppShell();
 		}
 
 		protected override void OnStart() {

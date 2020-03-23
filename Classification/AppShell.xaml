@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Classification"
+       x:Class="Classification.AppShell">
+    <FlyoutItem Title="Classification">
+        <ShellContent ContentTemplate="{DataTemplate local:CameraView}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Second">
+        <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="About">
+        <ShellContent ContentTemplate="{DataTemplate local:AboutView}"/>
+    </FlyoutItem>
+</Shell>

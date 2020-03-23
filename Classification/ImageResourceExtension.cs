@@ -1,4 +1,7 @@
-﻿namespace Classification {
+﻿/*
+ * Source: https://github.com/xamarin/xamarin-forms-samples/blob/master/UserInterface/VisualDemos/VisualDemos/ImageResourceExtension.cs
+ */
+namespace Classification {
     using System;
     using System.Reflection;
     using Xamarin.Forms;

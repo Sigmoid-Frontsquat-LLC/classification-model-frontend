@@ -127,6 +127,9 @@
     <PackageReference Include="Xam.Plugin.Media">
       <Version>4.0.1.5</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Forms.Visual.Material">
+      <Version>4.5.0.396</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -134,5 +137,9 @@
       <Project>{4AC6309D-7F88-406B-8C1B-E77F20C9FDA3}</Project>
       <Name>Classification</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\upload_white.png" />
+    <BundleResource Include="Resources\camera_white.png" />
   </ItemGroup>
 </Project>

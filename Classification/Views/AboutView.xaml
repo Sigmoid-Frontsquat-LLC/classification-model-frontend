@@ -13,51 +13,54 @@
                 <!-- Roberto Campos -->
                 <Frame Padding="16">
                     <StackLayout Spacing="16">
-                        <Image Source="{local:ImageResource Classification.Assets.Images.programmer.jpg}"
+                        <Image Source="{local:ImageResource Classification.Assets.Images.roberto-campos.jpg}"
                                Aspect="AspectFill"
                                Margin="-16,-16,-16,0" />
-                        <Label Text="Software Engineer"
+                        <Label Text="Roberto Campos"
                                FontSize="24"
                                TextColor="{StaticResource TextColor}"/>
                         <Label
                             FontSize="14"
                             TextColor="{StaticResource TextColor}"
-                            Text="Roberto Campos - Worked on Tensorflow model and design. Exported model and weights for Node.js execution." />
-                        <Button Text="more" HorizontalOptions="End" />
+                            Text="Worked on Tensorflow model and design. Exported model and weights for Node.js execution." />
+                        <Button Text="more" HorizontalOptions="End" Clicked="Button_Clicked_Roberto" />
                     </StackLayout>
                 </Frame>
                 <!-- Kevin Pacheco -->
                 <Frame Padding="16">
                     <StackLayout Spacing="16">
-                        <Image Source="{local:ImageResource Classification.Assets.Images.programmer.jpg}"
+                        <Image Source="{local:ImageResource Classification.Assets.Images.kevin-pacheco.jpg}"
                                Aspect="AspectFill"
                                Margin="-16,-16,-16,0" />
-                        <Label Text="Software Engineer"
+                        <Label Text="Kevin Pacheco"
                                FontSize="24"
                                TextColor="{StaticResource TextColor}"/>
                         <Label
                             FontSize="14"
                             TextColor="{StaticResource TextColor}"
-                            Text="Kevin Pacheco - Worked on Xamarin UI/UX as well as Node.js server running on AWS EC2 server." />
-                        <Button Text="more" HorizontalOptions="End" />
+                            Text="Worked on Xamarin UI/UX as well as Node.js server running on AWS EC2 server." />
+                        <Button Text="more" HorizontalOptions="End" Clicked="Button_Clicked_Kevin" />
                     </StackLayout>
                 </Frame>
                 <!-- Austin Wilson -->
                 <Frame Padding="16">
                     <StackLayout Spacing="16">
-                        <Image Source="{local:ImageResource Classification.Assets.Images.programmer.jpg}"
+                        <Image Source="{local:ImageResource Classification.Assets.Images.austin-wilson.jpg}"
                                Aspect="AspectFill"
                                Margin="-16,-16,-16,0" />
-                        <Label Text="Software Engineer"
+                        <Label Text="Austin Wilson"
                                FontSize="24"
                                TextColor="{StaticResource TextColor}"/>
                         <Label
                             FontSize="14"
                             TextColor="{StaticResource TextColor}"
-                            Text="Austin Wilson - Worked on Tensowflow model and design." />
-                        <Button Text="more" HorizontalOptions="End" />
+                            Text="Worked on Tensowflow model and design." />
+                        <Button Text="more" HorizontalOptions="End" Clicked="Button_Clicked_Austin" />
                     </StackLayout>
                 </Frame>
+                <Label Text="These images were professionally made."
+                       HorizontalTextAlignment="Center"
+                       FontSize="Caption" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
